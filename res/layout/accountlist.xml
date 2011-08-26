@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+	android:id="@+id/accounts_title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Web Host Manager Accounts:"
+    android:gravity="center_horizontal"
+    android:textSize="18.0sp"
+    />
+<ListView
+	android:id="@id/android:list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/accounts_title"
+    android:layout_above="@+id/btnAddAccount"
+    />
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@id/android:empty"
+	android:text="No Accounts"
+	android:gravity="center_vertical|center_horizontal"
+	android:layout_below="@id/accounts_title"
+	android:layout_alignParentBottom="true"
+	/>
+</RelativeLayout>

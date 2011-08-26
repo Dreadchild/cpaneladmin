@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+<string name="app_name">WHM Admin</string>
+<string name="lblsite">Site Address:</string>
+<string name="lbluser">User Name:</string>
+<string name="lblhash">Access Hash:</string>
+<string name="btntest">Test</string>
+<string name="btnsave">Save</string>
+<string name="lvbtnback">Back</string>
+<string name="btncancel">Cancel</string>
+</resources>
